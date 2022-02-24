@@ -128,7 +128,9 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: -8927450225214408208, guid: 8156f46ba90f4994494de91072367f06, type: 2}
+  - {fileID: 6642738917321687359, guid: f3e6d88bf71687e4e8c1bdf1871a9339, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -601,11 +603,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: MRTKTutorials
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 805908b7ecb8d801
   metroApplicationDescription: Template_3D
   wsaImages: {}
   metroTileShortName: MRTK_Tutorials
